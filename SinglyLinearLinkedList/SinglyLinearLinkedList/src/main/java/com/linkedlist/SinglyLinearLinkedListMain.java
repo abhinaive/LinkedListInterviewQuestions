@@ -6,7 +6,10 @@ public class SinglyLinearLinkedListMain {
 
         SinglyLinearLinkedList list = new SinglyLinearLinkedList();
 
+        list.addFirst(20);
+        list.addAtPosition(10,1);
 
+        list.display();
 
     }
 }
